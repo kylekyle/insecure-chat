@@ -1,0 +1,18 @@
+script src="/dist/chat.bundle.js"
+
+.row
+  #title.col-8.offset-2
+    h3 
+      | #{title} 
+      - if instructor
+        span.reset onclick="window.location.replace(window.location+'/reset')" &#x21bb;
+
+.row
+  #messages.col-6.offset-2
+  #users.col-2
+
+.row
+  .input-group.col-8.offset-2
+    .input-group-prepend
+      .input-group-text Message
+      input#message

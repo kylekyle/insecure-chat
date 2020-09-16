@@ -1,0 +1,59 @@
+#title {
+  padding-left: 0;
+  padding-top: 25px;
+}
+
+#users, #messages {
+  height: 60vh;
+  padding-left: 3px;
+  overflow-x: auto;
+  overflow-y: auto;
+  overflow-wrap: break-word;
+  border: 1px solid lightgray;
+}
+
+.user {
+  margin: 1px;
+  color: white;
+  vertical-align: text-top;
+}
+
+.message {
+  display: block;
+}
+
+.message p { 
+  display: inline;
+}
+ 
+.input-group {
+  padding: 0;
+}
+
+.selectpicker {
+  border: 1px solid lightgray;
+}
+
+.input-group-prepend {
+  width: 100%;
+}
+
+.input-group-text {
+  width: 100px;
+}
+
+input, select {
+  width: 100%;
+}
+
+input {
+  padding-left: 5px;
+}
+
+.footer {
+  font-size: 8pt;
+  text-align: center;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px;
+}

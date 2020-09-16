@@ -1,0 +1,14 @@
+center
+    br
+    br
+    .card.w-75
+        .card-body
+            - if defined? title
+                h3.card-title #{title}
+            p.card-text.text-left #{{text}}
+            - if defined? button
+                - name, href = button.first
+                - if defined? new_window
+                    a.btn.btn-primary target="_blank" href="#{href}" #{name}
+                - else
+                    a.btn.btn-primary href="#{href}" #{name}

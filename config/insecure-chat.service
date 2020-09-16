@@ -1,0 +1,18 @@
+# /etc/systemd/system/lockdown-chat.service
+
+[Unit]
+Description=Insecure Chat Server
+Wants=nginx.service
+
+[Service]
+Type=simple
+WorkingDirectory=/root/insecure-chat/
+Environment=RACK_ENV=production
+
+# the wrapper path to bundle assumes you're using RVM
+ExecStart=/usr/local/rvm/wrappers/insecure-chat/bundle exec "puma -b tcp://0.0.0.0:9393 config.ru"
+ExecStop=/bin/kill -- $MAINPID
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

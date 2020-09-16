@@ -1,0 +1,135 @@
+#title {
+  padding-left: 0;
+  padding-top: 25px;
+}
+
+#users, #messages {
+  height: 60vh;
+  padding-left: 3px;
+  overflow-x: auto;
+  overflow-y: auto;
+  overflow-wrap: break-word;
+  border: 1px solid lightgray;
+}
+
+.user {
+  margin: 1px;
+  color: white;
+  vertical-align: text-top;
+}
+
+.message {
+  display: block;
+}
+
+.message p { 
+  display: inline;
+}
+
+.input-group {
+  padding: 0; 
+}
+
+.input-group-prepend {
+  width: 100%;
+}
+
+.input-group-text {
+  width: 100px;
+}
+
+input, select {
+  width: 100%;
+}
+
+input {
+  padding-left: 5px;
+}
+
+footer {
+  font-size: 8pt;
+  text-align: center;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px;
+}
+
+.user.badge.rosybrown {
+  background-color: rosybrown;
+}
+
+.user.badge.tomato {
+  background-color: tomato;
+}
+
+.user.badge.black {
+  background-color: black;
+}
+
+.user.badge.orange {
+  background-color: orange;
+}
+
+.user.badge.cornflowerblue {
+  background-color: cornflowerblue;
+}
+
+.user.badge.cadetblue {
+  background-color: cadetblue;
+}
+
+.user.badge.goldenrod {
+  background-color: goldenrod;
+}
+
+.user.badge.darkred {
+  background-color: darkred;
+}
+
+.user.badge.crimson {
+  background-color: crimson;
+}
+
+.user.badge.chocolate {
+  background-color: chocolate;
+}
+
+.user.badge.darkblue {
+  background-color: darkblue;
+}
+
+.user.badge.darkgoldenrod {
+  background-color: darkgoldenrod;
+}
+
+.user.badge.darkcyan {
+  background-color: darkcyan;
+}
+
+.user.badge.orchid {
+  background-color: orchid;
+}
+
+.user.badge.darkslategrey {
+  background-color: darkslategrey;
+}
+
+.user.badge.darkgreen {
+  background-color: darkgreen;
+}
+
+.user.badge.darkorange {
+  background-color: darkorange;
+}
+
+.user.badge.blue {
+  background-color: blue;
+}
+
+.user.badge.blueviolet {
+  background-color: blueviolet;
+}
+
+.user.badge.brown {
+  background-color: brown;
+}

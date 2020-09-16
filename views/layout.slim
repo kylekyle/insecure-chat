@@ -1,0 +1,21 @@
+doctype html
+
+html
+  head
+    meta charset="UTF-8"
+    title Insecure Chat
+
+    link rel="stylesheet" href="/dist/bootstrap.min.css"
+    link rel="stylesheet" href="/insecure-chat.css"
+
+  body
+    .container
+      ==yield
+    footer.footer
+      .container
+        span.text-muted
+          | Maintained by 
+          a href="mailto:kylejking@gmail.com" Kyle King
+          | . Source code on 
+          a href="https://github.com/kylekyle/insecure-chat" Github
+          | .

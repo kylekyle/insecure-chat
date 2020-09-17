@@ -20,7 +20,7 @@ To install project dependencies, run:
 
 ```bash
 $ git clone https://github.com/kylekyle/lockdown-chat
-$ cd lockdown-chat
+$ cd insecure-chat
 $ bundle install
 ```
 

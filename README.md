@@ -60,9 +60,9 @@ To configure the insecure chat server to start automatically when you boot:
 
 ## Configuring Canvas
 
-To add Insecure Chat to your course, go to *Settings* -> *Apps* in Canvas and add a new app. Enter the LTI key and secret from your `.env`, select `Paste XML`, and paste in the XML from here: 
+To add Insecure Chat to your course, go to *Settings* -> *Apps* in Canvas and add a new app. Enter the LTI key and secret from your `.env`, select `By URL`, and paste in the following URL: 
 
-> https://<INSECURE_CHAT_SERVER_DOMAIN>/config.xml
+> https://insecure.compute.army/config.xml
 
 ## Building the webpack bundle
 

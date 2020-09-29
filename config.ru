@@ -24,6 +24,7 @@ class InsecureChat < Roda
   use Rack::CommonLogger
   use SessionDebugger if ENV['RACK_ENV'] == 'development'
 
+  plugin :halt
   plugin :json
   plugin :public
   plugin :slash_path_empty

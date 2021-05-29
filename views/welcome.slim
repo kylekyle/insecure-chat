@@ -1,0 +1,17 @@
+center
+  br 
+  br
+  
+  h1.text-center.display-1 Hack Chat
+  br
+  p Learn web concepts by hacking a chat room. To start, enter a room code below. 
+
+  form method="POST"
+    .input-group.mb-3.input-group-lg.w-50
+      input name="code" class="form-control" placeholder="" aria-label="" aria-describedby=""
+      button.btn.btn-success type="submit"
+        | Join
+  
+  - if defined? invalid_code
+    .alert.alert-danger.w-50 role="alert"
+      | Invalid room code ¯\_(ツ)_/¯
